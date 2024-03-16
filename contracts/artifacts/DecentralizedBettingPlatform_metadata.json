@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "betCounter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ChainBet.sol": "DecentralizedBettingPlatform"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ChainBet.sol": {
+			"keccak256": "0xdbec78b34b5a1701d1821081f1771ab70b61807a3ccf6ff7ff8b2251f78ff3ef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://baf726cf6bfb6d95486ea83d63f5621bd2a0d4a52919bcce904600019d6e25c3",
+				"dweb:/ipfs/QmfVPkinxNC3zXmckVrnH3LaKpb4ymPH2sedfuAjcwPqCB"
+			]
+		}
+	},
+	"version": 1
+}
